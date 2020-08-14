@@ -10,3 +10,8 @@ PRODUCTION
 ```
 npm run build:prod
 ```
+
+PUSH TO GITHUB PAGES
+```
+npm run build:gh-pages
+```
