@@ -1,8 +1,4 @@
-@use 'norm-reset';
+@import 'components/norm-reset';
+@import 'components/base';
 
-html{
-    font-size: 62.5%;
-    body{
-        font-size: 1.6rem;
-    }
-}
+@import '../views/**/*.scss'; // import any additional scss files from views folder
